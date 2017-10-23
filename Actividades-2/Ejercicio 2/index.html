@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <form method="get" action=".">
+       <fieldset>
+           <legend>Unete</legend>
+               <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+                <div>
+                <label for="user">Nombre y apellidos:</label> 
+                    <input name="user" type="text" size="20" id="user" autofocus required>
+                </div>
+                <div>
+                <label for="comment">Comentario:</label>
+                    <textarea name="texarea" id="comment" placeholder="Escribe aquí tu comentario"></textarea>
+                </div>
+       </fieldset>
+       <fieldset>
+           <legend>Campos de entrada de texto especiales</legend>
+               <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+                <div>
+                <label for="pass">Contraseña:</label> 
+                    <input name="pass" type="password" size="20" id="pass" required>
+                </div>
+                <div>
+                <label for="search">Buscar:</label>
+                    <input name="search" type="search" size="20" id="search">
+                </div>
+                <div>
+                <label for="email">Email:</label>
+                    <input name="email" type="email" size="20" id="email">
+                </div>
+                <div>
+                <label for="telefono">Télefono:</label>
+                    <input name="telefono" type="tel" size="20" id="telefono">
+                </div>
+                <div>
+                <label for="url">URL:</label>
+                    <input name="url" type="url" size="20" id="url">
+                </div>
+       </fieldset>
+       <input type="submit" name="send" value="Enviar">
+   </form>
+    
+</body>
+</html>

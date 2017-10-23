@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <form method="get" action=".">
+       <fieldset>
+           <legend>Unete</legend>
+               <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+                <div>
+                <label for="user">Nombre y apellidos:</label> 
+                    <input name="user" type="text" size="20" id="user">
+                </div>
+                <div>
+                <label>Edad:
+                   <input list="age">
+                    <datalist id="age">
+                        <option>Menor de 20</option>
+                        <option>Entre 20 y 40</option>
+                        <option>Entre 40 y 60</option>
+                        <option>Entre 60 y 80</option>
+                        <option>Mayor de 80</option>
+                    </datalist>
+                </label> 
+                </div>
+                <div>
+                <label for="comment">Comentario:</label>
+                    <textarea name="texarea" id="comment" placeholder="Escribe aquí tu comentario"></textarea>
+                </div>
+                
+                
+       </fieldset>
+       <input type="submit" name="send" value="Enviar">
+       
+   </form>
+    
+</body>
+</html>

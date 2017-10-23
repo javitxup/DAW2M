@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="get" action=".">
+        <fieldset>
+            <legend>Unete</legend>
+            <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+            <div>
+                <label for="user">Nombre y apellidos:</label>
+                <input name="user" type="text" size="20" id="user">
+            </div>
+            <div>
+                <ul><li>Edad:</li><li>
+                <ul>
+                    <li>
+                        <label>
+                    <input type="radio" name="age" value="Menor de 20">Menor de 20</label>
+                </li>
+                <li>
+                    <label>
+                     <input type="radio" name="age" value="Entre 20 y 40">Entre 20 y 40</label>
+                </li>
+                <li>
+                    <label>
+                            <input type="radio" name="age" value="Entre 40 y 60">Entre 40 y 60</label>
+                </li>
+                <li>
+                    <label>
+                            <input type="radio" name="age" value="Mas de 60">Más de 60</label>
+                </li>
+                </ul>
+                </li></ul>
+            </div>
+            <div>
+                <ul><li>Estudios:</li><li>
+                <ul>
+                    <li><label><input type="checkbox" name="estudios" value="Bachiller">Bachiller</label></li>
+                <li><label><input type="checkbox" name="estudios" value="Formación Profesional">Formación Profesional</label></li>
+                <li><label><input type="checkbox" name="estudios" value="Inglés B2">Inglés B2</label></li>
+                <li><label><input type="checkbox" name="estudios" value="Francés B2">Francés B2</label></li>
+                    </ul>
+                </li></ul>
+            </div>
+
+        </fieldset>
+        <input type="submit" name="send" value="Enviar">
+
+    </form>
+
+</body>
+</html>
