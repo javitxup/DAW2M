@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="get" action=".">
+        <fieldset>
+            <legend>Unete</legend>
+            <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+            <div>
+                <label for="date">Fecha:</label>
+                <input name="date" type="date"id="date" value="2012-12-15">
+            </div>
+            <div>
+                <label for="time">Hora:</label>
+                <input name="time" type="time" id="time" value="12:30">
+            </div>
+            <div>
+                <label for="datetime">Fecha y hora:</label>
+                <input name="datetime" type="text" id="datetime" value="2012-12-15T12:30">
+            </div>
+            <div>
+                <label for="datetimelocal">Fecha y hora (local):</label>
+                <input name="datetimelocal" type="datetime-local" id="datetimelocal" value="2012-12-15T12:30">
+            </div>
+            <div>
+                <label for="month">Mes:</label>
+                <input name="month" type="month" id="month" value="2012-12">
+            </div>
+            <div>
+                <label for="week">Semana:</label>
+                <input name="week" type="week" id="week" value="week">
+            </div>
+        </fieldset>
+        <input type="submit" name="send" value="Enviar">
+
+    </form>
+
+</body>
+</html>

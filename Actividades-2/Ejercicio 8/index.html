@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <form method="get" action=".">
+       <fieldset>
+           <legend>Unete</legend>
+               <div>Nuestros socios tienen muchas ventajas. ¡Y es gratis!</div>
+                <div>
+                    <label for="color">Color: </label> 
+                    <select name="color" id="color">
+                       <option selected>Rojo</option>
+                       <option>Azul</option>
+                       <option>Negro</option>
+                        <optgroup label="Metalizados">
+                            <option>Plateado</option>
+                            <option>Dorado</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                   <label for="carac">Caracteristicas:</label>
+                    <select multiple>
+                        <option>Con cordones</option>
+                        <option>Logo metálico</option>
+                        <option>Ligeras</option>
+                        <option>Con música</option>
+                    </select>
+                </div>
+                 <input type="submit" name="register" value="enviar">
+       </fieldset>
+      
+   </form>
+    
+</body>
+</html>

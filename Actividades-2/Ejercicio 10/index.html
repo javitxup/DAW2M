@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <form method="get" action=".">
+      <h1>Formulario de solicidud de zapatos</h1>
+      <fieldset>
+          <legend>Información personal</legend>
+          <div>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+          </div>
+          <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+          </div>
+          <div>
+                <label for="telf">Télefono:</label>
+                <input type="tel" name="telf" id="telf">
+          </div>
+          <div>
+                <label for="comment">Cuéntanos tu historia:</label>
+                <textarea name="comment" id="comment" placeholder="No más de 300 caracteres" cols="50" rows="5"></textarea>
+          </div>
+      </fieldset>
+       <h2>Diseña tus zapatos:</h2>
+        <fieldset>
+            <legend>Diseño personalizado</legend>
+
+            <fieldset>
+               <legend>Color <cite>(Elige uno)</cite>:</legend>
+                <div>
+                    <label><input type="radio" name="colors" value="Rojo">Rojo</label>
+                    <label><input type="radio" name="colors" value="Azul">Azul</label>
+                    <label><input type="radio" name="colors" value="Negro">Negro</label>
+                    <label><input type="radio" name="colors" value="Plata">Plata</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Carácteristicas <cite>(Elige el que quieras)</cite></legend>
+                <div>
+                    <label><input type="checkbox" name="carac1" value="Cordones">Con Cordones</label>
+                    <label><input type="checkbox" name="carac1" value="Logo metálico">Logo metálico</label>
+                    <label><input type="checkbox" name="carac1" value="Ligeras">Ligeras</label>
+                    <label><input type="checkbox" name="carac1" value="Con música">Con música</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tamaño</legend>
+                <div>
+                <label for="size">Tamaño de los zapatos</label>
+                <select name="size" id="size">
+                    <script type="text/javascript">
+                        for (i = 5;i< 48;i++){
+                            document.write("<option>"+i+"</option>\ln");
+                        }
+                        </script>
+                </select>
+                </div>
+            </fieldset>
+        </fieldset>
+         <input type="submit" name="soli" value="Solicitar">
+         <input type="reset" name="res" value="Restablecer">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+div{
+    padding-left: 2em;
+}
+form label {
+    display: list-item;
+    list-style: disc;
+}
